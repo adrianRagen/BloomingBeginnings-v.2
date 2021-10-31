@@ -1,0 +1,147 @@
+/* Text Colors */
+
+.text-primary{
+  color: #6E99B2;
+}
+
+.text-secondary{
+  color: #BD8BBF;
+}
+
+#pink-text{
+  color: #D89191;
+}
+
+
+
+.container{
+  width: 75%;
+  margin: auto;
+}
+
+.bg-dark{
+  background-color: #e0f0fadc;
+}
+
+/* Buttons */
+
+.btn-full{
+  background: transparent linear-gradient(99deg, #c290c4 0%, #a2a2c5 44%, #93c6e4 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 6px #00000029;
+  border-radius: 15px;
+  opacity: 1;
+  padding: 12px 95px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 60%;
+  text-align: center;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.btn-full:hover{
+  background: transparent linear-gradient(99deg, #c290c4 0%, #a2a2c5 44%, #93c6e4 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 6px #00000029;
+  border-radius: 15px;
+  opacity: 1;
+  padding: 12px 95px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 90%;
+  transition: 0.2s;
+}
+
+.btn-full a{
+  color: #fff;
+}
+
+/* Titles */
+
+.section-title{
+  font-size: 1.6em;
+}
+
+/* Section Spacing */
+
+.new-section{
+  max-width: 1700px;
+  margin:100px auto 0px auto;
+}
+
+
+
+
+/* Flex Columns */
+
+.flex-columns.flex-reverse .row{
+  flex-direction: row-reverse;
+}
+
+.flex-columns .row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.flex-columns .column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column1,
+.flex-columns .column .column2{
+  height: 100%;
+
+}
+
+
+.flex-columns img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.flex-columns .column1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+
+
+.flex-columns .column2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+
+/* Flex Items */
+
+.flex-items{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.flex-items > div{
+  padding: 40px 20px;
+  background-color: rgba(185, 185, 185, 0.384);
+  max-width: 20%;
+  border-radius: 20px;
+  box-shadow: 3px 9px 6px #00000029;
+
+}
