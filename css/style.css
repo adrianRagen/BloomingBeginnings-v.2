@@ -33,6 +33,7 @@ img{
   width: 100%;
 }
 
+
 /* Main styling */
 
 /* Navbar */
@@ -103,6 +104,7 @@ nav{
   position: relative;
   text-align: center;
   height: 200px;
+  justify-content: center;
   margin-left: 200px;
   background-image: url(/img/cloud.png);
   background-position: center;
@@ -111,9 +113,11 @@ nav{
 
 }
 
+/* Change width to 85% on large screens */
+
 .cloud p{
-  padding-top: 85px;
-  width: 60%;
+  padding-top: 60px;
+  width: 65%; 
   margin: auto;
 }
 
@@ -188,7 +192,7 @@ main{
 }
 
 .btn-right{
-  
+
 }
 
 /* Banner */
@@ -207,13 +211,12 @@ main{
 #benefits h3{
   font-weight: bold;
   margin-bottom: 15px;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 #benefits img{
   margin-bottom: 10px;
-  height: 120px;
-  width: auto;
+  width: 80%;
 }
 
 
@@ -282,28 +285,33 @@ footer{
 /* Services Page */
 
 .section-services{
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+}
+.service{
+  width: 100%;
 }
 
 .services-text{
-  margin-left: 20px;
+  align-self: center;
   background-color: rgba(255, 255, 255, 0.233);
   padding: 20px 30px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+}
+
+.services-text h4{
+  font-size: 1.6rem;
 }
 
 .services-paper{
-  width: 100%;
-  content: " ";
+  content: "";
   text-align: center;
-  background-image: url(/img/services.png);
+  background-image: url(/img/prices.png.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 620px;
-  margin-top: -10px;
-  padding-top: 120px;
+  height: 600px;
   z-index: 8;
+  width: 130%;
 }
 
 .group{
@@ -326,17 +334,18 @@ footer{
 
 
 .section-services-main p{
-  padding-top: 20px;
+
   margin-top: 20px;
   color: rgb(95, 95, 95);
 }
 
 .section-services-main h2{
-  padding-top: 20px;
-  margin-top: 20px;
+  margin: 40px 0px;
   text-align: center;
   color: rgb(78, 78, 78);
 }
+
+
 
 .wrapper{
   background-color: rgba(211, 211, 211, 0.226);
@@ -345,7 +354,7 @@ footer{
 
 .section-services-main img{
   width: auto;
-  height:350px;
+  height:auto;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -367,5 +376,15 @@ footer{
 }
 
 #margin{
-  margin-top: 95px;
+  margin-top: 115px;
+}
+
+.P1 h4,
+.P2 h4{
+  margin-top: 15px;
+}
+
+.img-box{
+  margin-left: 15px;
+  align-items: center;
 }
