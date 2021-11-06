@@ -26,11 +26,20 @@ h1,h2{
 }
 
 p{
-  margin: 10px 0;
+/* Was 10px */
 }
 
 img{
   width: 100%;
+}
+
+.person-img-heidi{
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.person-img-krystle{
+  margin-right: 60px;
 }
 
 
@@ -416,11 +425,12 @@ footer{
 /* About Page */
 
 
-#about-title h2{
+#about-title{
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  margin-top: -10px;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.1rem;
 }
 
 .our-storybox{
@@ -455,4 +465,105 @@ footer{
 
 .text{
   margin-left: 55px;
+}
+
+/* Contact Page */
+
+.section-contact-main{
+  margin: 25px 0px;
+}
+
+.section-contact-main p{
+  margin-bottom: 35px;
+}
+
+#call-us{
+  color: #D89191;
+  font-size: 1.4rem;
+}
+
+#contact-title{
+  text-align: center;
+  padding-bottom: 20px;
+  color: #fff;
+  margin-top: -10px;
+}
+
+
+.contact-wrapper{
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+}
+
+.contact-media-wrapper{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.person{
+  display: flex;
+}
+
+.person p{
+  color: #D89191;
+}
+
+.person strong{
+  color:#F2BCA6;
+}
+
+.person img{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-right: 15px;
+  object-fit:cover;
+}
+
+.social-wrap{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.social-wrap h4{
+  color: #F2BCA6;
+}
+
+.social-wrap i{
+  font-size: 1.8rem;
+  margin: 10px;
+}
+
+.person{
+  margin: auto;
+}
+
+/* Contact Page */
+
+.flex-fields{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-wrap{
+  background-color: #EBD6D6;
+  width: 80%;
+  padding: 20px 15px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+input{
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  margin: 5px auto;
+  padding: 5px;
+  width: 90%;
+}
+
+.email-input{
+  width: 100%;
+  margin: 5px auto;
 }
