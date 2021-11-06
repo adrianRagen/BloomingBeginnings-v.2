@@ -206,6 +206,8 @@ main{
 
 #benefits > div{
   margin-top: 40px;
+  line-height: 1.4rem;
+  font-size: 0.8rem;
 }
 
 #benefits h3{
@@ -216,7 +218,7 @@ main{
 
 #benefits img{
   margin-bottom: 10px;
-  width: 80%;
+  width: 50%;
 }
 
 
@@ -315,11 +317,16 @@ footer{
 }
 
 .group{
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 .group h4{
   color: #fff;
+}
+
+.group p{
+  font-size: 0.8rem;
+
 }
 
 .find-out-more{
@@ -335,7 +342,7 @@ footer{
 
 .section-services-main p{
 
-  margin-top: 20px;
+  margin-top: 0px;
   color: rgb(95, 95, 95);
 }
 
@@ -346,15 +353,13 @@ footer{
 }
 
 
-
 .wrapper{
   background-color: rgba(211, 211, 211, 0.226);
   padding: 25px
 }
 
 .section-services-main img{
-  width: auto;
-  height:auto;
+
   object-fit: cover;
   border-radius: 20px;
 }
@@ -387,4 +392,67 @@ footer{
 .img-box{
   margin-left: 15px;
   align-items: center;
+}
+
+.flexing-p h4{
+  color: #D89191;
+}
+
+.text-box{
+  margin: auto;
+}
+
+.img-box{
+  margin: auto 60px;
+}
+
+
+.section-title{
+  margin-bottom: 20px;
+}
+
+
+
+/* About Page */
+
+
+#about-title h2{
+  text-align: center;
+  padding-bottom: 40px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.our-storybox{
+  font-size: 1rem;
+  height: 100%;
+}
+
+#story-img img{
+  background-size: cover;
+  
+}
+
+.box{
+  margin: auto 30px;
+  height: 100%;
+}
+
+.flex-container{
+  display: flex;
+  margin-top: -40px;
+}
+
+.flex-box{
+  width: 33%;
+}
+
+.flex-box-one,
+.flex-box-three{
+  border-top: 1px solid #333;
+  margin-top: 55px;
+}
+
+.text{
+  margin-left: 55px;
 }

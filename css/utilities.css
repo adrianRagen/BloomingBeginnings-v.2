@@ -118,7 +118,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-right: 40px;
+}
+
+.flex-columns .column1{
+  margin-right: 60px;
 }
 
 
@@ -128,6 +131,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+
+}
+
+.flex-columns .column2 img{
 
 }
 
@@ -143,7 +150,7 @@
 }
 
 .flex-items > div{
-  padding: 40px 15px;
+  padding: 30px 15px 10px 15px;
   background-color: rgba(185, 185, 185, 0.384);
   border-radius: 20px;
   box-shadow: 3px 9px 6px #00000029;
@@ -158,4 +165,9 @@
 
 #blog-img img{
   width: 100%;
+}
+
+
+.auto{
+  margin: auto;
 }
