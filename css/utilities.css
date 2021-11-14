@@ -72,7 +72,7 @@
 
 .new-section{
 
-  margin:100px auto 0px auto;
+  margin:80px auto 0px auto;
 }
 
 
@@ -122,6 +122,7 @@
 
 .flex-columns .column1{
   margin-right: 60px;
+  margin-bottom: 25px;
 }
 
 
@@ -150,7 +151,7 @@
 }
 
 .flex-items > div{
-  padding: 30px 15px 10px 15px;
+  padding: 30px 15px 30px 15px;
   background-color: rgba(185, 185, 185, 0.384);
   border-radius: 20px;
   box-shadow: 3px 9px 6px #00000029;
