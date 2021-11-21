@@ -320,10 +320,11 @@ footer{
 
 .services-text{
   align-self: center;
-  background-color: rgba(255, 255, 255, 0.233);
+  background-color: rgba(255, 255, 255, 0.452);
   padding: 20px 30px;
   margin-bottom: 60px;
   width: 90%;
+  color: #333;
 }
 
 .services-text h4{
@@ -339,6 +340,11 @@ footer{
   height: 600px;
   z-index: 8;
   width: 100%;
+}
+
+.wrap-up .services-wrap{
+  font-size: 0.8rem;
+  text-align: left !important;
 }
 
 .group{
@@ -556,27 +562,60 @@ footer{
 
 .flex-fields{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
+}
+.flex-fields input{
+  width: 88%;
+  margin-bottom: 10px;
 }
 
 .form-wrap{
   background-color: #EBD6D6;
   width: 80%;
-  padding: 20px 15px;
   border-radius: 20px;
   margin: auto;
 }
 
 input{
   border: none;
-  border-radius: 5px;
-  height: 25px;
-  margin: 5px auto;
+  border-radius: 7px;
+  height: 35px;
+  margin: 0px 10px;
+  width: 94%;
   padding: 5px;
-  width: 90%;
 }
 
-.email-input{
-  width: 100%;
-  margin: 5px auto;
+textarea{
+  width: 94%;
+  margin: 15px 10px 10px 10px;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+
+}
+
+.contact-box-right h4{
+
+  padding:  0px 15px 10px 15px;
+  font-size: .8em;
+  color: #7a7a7a;
+
+}
+.contact-box-right h3{
+  padding: 15px 15px 10px 15px;
+  color: #6e6e6e;
+
+}
+
+.btn{
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  width: 95%;
+  align-self: center;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  background-color: #d8919180;
+  color: #fff;
 }
